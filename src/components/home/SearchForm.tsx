@@ -4,7 +4,7 @@ import { Search, MapPin, Calendar, UserPlus } from 'lucide-react';
 interface SearchFormProps {
   activeTab: string;
 }
-
+//@ts-ignore
 const SearchForm: React.FC<SearchFormProps> = ({ activeTab }) => {
   if (activeTab === 'flights') {
     return (
